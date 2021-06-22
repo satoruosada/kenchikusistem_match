@@ -1,0 +1,136 @@
+@media(max-width:480px) {
+
+    .btn {
+       
+        &__matchform-4 {
+    
+           & img {
+            position: relative;
+            bottom: 40%;
+            width: 25px;
+           }
+    
+           & > span {
+             font-size: 20px;
+           }
+          
+           &:hover {
+               text-decoration: none;
+             
+           }
+       
+        }
+      }
+
+   .hero {
+
+       &__br {
+           display: block;
+       }
+
+       &__images {
+           &-right {
+               display: none;
+           }
+           &-left {
+               width: 100%;
+               &::after {
+                   padding-top: 90%;
+               }
+           }
+       }
+       &__title {
+           &-h1 {
+               font-size: 14px;
+               text-align: center;
+               & > span {
+                   font-size: 23px;
+               }
+           }
+           &-h2 {
+               font-size: 14px;
+           }
+       }
+   }
+
+   .house {
+       &__left {
+           width: 90%;
+       }
+       &__right {
+        &-image01 {
+            width: 100%;
+        }
+        &-image02 {
+            width: 100%;
+        }
+
+		&-underimage {
+
+			& > a {
+				width: 90%;
+			}
+		}
+	  }
+   }
+
+   .form {
+       &__inner {
+           width: 90%;
+       }
+   }
+
+   .footer {
+       &__logoimages {
+        width: 70%;
+        margin: 0 auto;
+    }
+    &__copyright {
+           font-size: 10px;
+
+       }
+   }
+}
+
+@media(max-width:513px) {
+
+    .main-br {
+        display: none;
+        
+    }
+
+    .main {
+        &__text {
+            text-align: left;
+        }
+    }
+}
+
+
+@media(max-width:430px) {
+
+   .header {
+       &__title {
+           font-size: 10px;
+       }
+       &__logo {
+        &-right {
+            font-size: 12px;
+        }
+    }
+   }
+}
+@media(max-width:425px) {
+
+   .header {
+      
+       &__logo {
+            &-right {
+                 font-size: 11px;
+            }
+        }
+        &__logoimage {
+            width: 190px;
+        }
+   }
+}
