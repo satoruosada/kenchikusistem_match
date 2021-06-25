@@ -1,24 +1,14 @@
 @media(max-width:600px) {
 
-    .header {
-        &__logo {
-            &-right {
-                font-size: 15px;
-            }
-        }
-        &__logoimage {
-            & > img {
-                width: 200px;
-            }
-        }
-    }
 
     .hero {
         
 
         &__title {
             &-back {
-                height: 190px;
+                &-sp {
+                    width: 100%;
+                }
             }
         }
     }
@@ -28,17 +18,49 @@
         &__btn2 {
             padding: 220px 0 100px 0;
         }
+
     }
-}
 
-@media(max-width:635px) {
-
-    .hero {
-
-        &__title {
-            &-back {
-                height: 190px;
+    .faq {
+        &__main {
+            &-question {
+                position: relative;
+                height: 80px;
+            }
+            &-span {
+                margin-left: 20px;
+ 
+                &-head {
+                 position: absolute;
+                 top: 50%;
+                 left: 10%;
+                 transform: translate(-50%, -50%);
+                }
+            }
+ 
+            &-p {
+                &-txt {
+                    width: 68%;
+                    position: absolute;
+                    left: 55%;
+                    top: 50%;
+                    transform: translate(-50%,-50%);
+                }
             }
         }
     }
 }
+
+@media (max-width:650px) {
+    .main {
+        &__text {
+            &-p {
+                width: 90%;
+                margin: 0 auto;
+                max-width: 1200px;
+                text-align: left;
+            }
+        }
+    }
+}
+
